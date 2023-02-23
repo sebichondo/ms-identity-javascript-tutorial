@@ -1,7 +1,7 @@
 {
     "credentials": {
-        "tenantID": "Enter_the_Tenant_Id_Here",
-        "clientID": "Enter_the_Application_Id_Here"
+        "tenantID": "1138f922-44fa-4f84-b647-488ad8e11040",
+        "clientID": "49d8ede6-2d27-49f5-a2a1-5d7030e84108"
     },
     "metadata": {
         "authority": "login.microsoftonline.com",

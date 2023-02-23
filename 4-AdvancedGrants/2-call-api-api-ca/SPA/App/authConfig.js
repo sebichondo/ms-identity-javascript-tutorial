@@ -5,8 +5,8 @@
  */
 const msalConfig = {
     auth: {
-        clientId: "Enter_the_Application_Id_Here",
-        authority: "https://login.microsoftonline.com/Enter_the_Tenant_Info_Here",
+        clientId: "0f78d93e-ac10-48ac-b22f-866342a16b91",
+        authority: "https://login.microsoftonline.com/1138f922-44fa-4f84-b647-488ad8e11040",
         redirectUri: "http://localhost:3000",
     },
     cache: {
@@ -18,7 +18,7 @@ const msalConfig = {
 // Add here the endpoints and scopes for the web API you would like to use.
 const apiConfig = {
     uri: "http://localhost:5000/api", // e.g. http://localhost:5000/api
-    scopes: [ "Enter_the_Web_Api_Scope_Here" ] // e.g. [api//middle_tier_api_client_id/.default]
+    scopes: [ "api://3f643443-0748-415c-923b-2e64925e2fa4/.default" ] // e.g. [api//middle_tier_api_client_id/.default]
 };
 
 

@@ -1,13 +1,15 @@
 {
     "credentials": {
-        "tenantID": "Enter_the_Tenant_Id_Here",
-        "clientID": "Enter_the_Application_Id_Here",
-        "clientSecret": "Enter_the_Client_Secret_Here"
+        "tenantID": "1138f922-44fa-4f84-b647-488ad8e11040",
+        "clientID": "3f643443-0748-415c-923b-2e64925e2fa4",
+        "clientSecret": "SKnBWgXJeyc+UvM2MjoqKIcLwbSNmewiUWjyQ4gA57M="
     },
     "resources": {
         "downstreamAPI": {
             "resourceUri": "http://localhost:7000/api",
-            "resourceScopes": [ "Enter_the_Web_Api_Scope_Here" ]
+            "resourceScopes": [
+                "api://49d8ede6-2d27-49f5-a2a1-5d7030e84108/.default"
+            ]
         }
     },
     "metadata": {
